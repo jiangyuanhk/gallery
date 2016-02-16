@@ -1,12 +1,14 @@
-/** {
+* {
     border: 1px solid red !important;
 }
-*/
+
 
 /*styling for the gallery pages*/
 .gallery-box {
     height: 650px;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .item-box {
@@ -39,7 +41,14 @@
     padding: 5px;
 }
 
-.item-header {
+.gallery-header-container {
+    margin-top: 10px;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    padding: 5px;
+}
+
+.header {
     display: table-cell;
 }
 
@@ -64,5 +73,7 @@ hr {
     color: #fff
 }
 
-
+.text-center > p {
+    margin:10px;
+}
 
