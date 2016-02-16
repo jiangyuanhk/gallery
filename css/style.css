@@ -32,5 +32,25 @@
     bottom: 0;
 }
 
+.item-header-container {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+
+
+.btn-button-name, .btn-button-name:link, .btn-button-name:visited {
+    background-color: transparent;
+    border-radius: 10;
+    color: #6f5499;
+    border: 2px solid #6f5499;
+}
+.btn-button-name:active, .btn-button-name:hover {
+    background-color: #6f5499;
+    color: #fff
+}
+
 
 
